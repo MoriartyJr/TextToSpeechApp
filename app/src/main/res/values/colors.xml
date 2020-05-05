@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="BgColorBrigth">#2473cc</color>
+    <color name="HighlightColorBright">#568fcc</color>
+    <color name="BgColorButtonBright">#f6f6f6</color>
+    <color name="BgColorDark">#212121</color>
+    <color name="HighlightColorDark">#424242</color>
+    <color name="BgColorButtonDark">#FFFFFF</color>
+    <color name="Active">#4CFF3D</color>
+    <color name="Inactive">#f6f6f6</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.texttospeech.texttospeech">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Bootscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Accessibility" />
+        <activity android:name=".GuideSettings" />
+        <activity android:name=".GuideCameraMode" />
+        <activity android:name=".GuideVoiceControl" />
+        <activity android:name=".SettingsGeneral" />
+        <activity android:name=".SettingsDesign" />
+        <activity android:name=".SettingsAccessibility" />
+        <activity android:name=".SettingsInformation" />
+        <activity android:name=".SettingsLanguage" />
+        <activity android:name=".SystemLanguage" />
+        <activity android:name=".CameraMode" />
+        <activity android:name=".TextOutput" />
+        <activity android:name=".PictureSelection"></activity>
+    </application>
+
+</manifest>

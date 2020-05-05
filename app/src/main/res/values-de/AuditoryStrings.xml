@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ConfirmAccessibillity_AuditoryOutput">Wischen Sie nach rechts um die Bedienungshilfen einzuschalten. </string>
+    <string name ="RefuseAccessibillity_AuditoryOutput">Wischen Sie nach Links um diese nicht zu aktivieren.</string>
+    <string name ="CameraMode_AuditoryOutput">Die Kamera ist nun aktiv. Berühren Sie den Bildschirm um ein Bild zu machen.</string>
+    <string name="GuideSettingsHeader_AuditoryOutput">Informationen für Einstellungen.</string>
+    <string name="GuideSettingsInfo_AuditoryOutput">Um in die Einstellungen zu gelangen können Sie jederzeit von rechts nach links wischen.</string>
+    <string name="GuideCameraModeHeader_AuditoryOutput">Informationen für den Kamera Modus.</string>
+    <string name="GuideCameraModeInfo_AuditoryOutput">Um Texte zu erkennen müssen Sie in den Kamera Modus. In diesen kommen Sie jederzeit wenn Sie von links nach rechts wischen.</string>
+    <string name="GuideVoiceControlHeader_AuditoryOutput">Informationen für die Sprachsteuerung</string>
+    <string name="GuideVoiceControlInfo_AuditoryOutput">Um die Applikation per Spracheingabe zu steuern müssen Sie einen Finger auf dem Bildschirm  halten. Bei Berührung wird Ihnen zugehört.</string>
+    <string name="PictureSelectionHeader_AuditoryOutput">Sie sind nun in der Auswahl.</string>
+    <string name="PictureSelectionGallery_AuditoryOutput">Berühren Sie die Obere Hälfte um ein Bild aus der Galerie auszuwählen.</string>
+    <string name="PictureSelectionCamera_AuditoryOutput">Berühren Sie die untere Hälfte um mit der Kamera ein Bild zu machen.</string>
+    <string name="PictureSelectionQuestion_AuditoryOutput">Wie möchten Sie das Bild auswählen?</string>
+    <string name="PictureSelectionChoices_AuditoryOutput">Aus Galerie wählen oder Kamera?</string>
+    <string name="SettingsAccessibilityHeader_AuditoryOutput">Sie sind nun in den Einstellungen für die Bedienungshilfen.</string>
+    <string name="SettingsAccessibilityQuestion_AuditoryOutput">Welche Bedienungshilfen Einstellungen wollen Sie verändern?</string>
+    <string name="SettingsAccessibilityChoices_AuditoryOutput">Haptisches Feedback oder Audtives Feedback oder Sprache?</string>
+    <string name="SettingsAccessibilityHapitcFbON">Das Haptisches Feedback ist nun angeschalten.</string>
+    <string name="SettingsAccessibilityHapticFbOFF">Das Haptisches Feedback ist nun ausgeschalten.</string>
+    <string name="SettingsAccessibilityAuditoryFbON">Das Auditive Feedback ist nun angeschalten.</string>
+    <string name="SettingsAccessibilityAuditoryFbOFF">Das Audtive Feedback ist nun ausgeschalten.</string>
+    <string name="SettingsDesignHeader_AuditoryOutput">Sie sind nun in den Einstellungen für das Design der Applikation.</string>
+    <string name="SettingsDesignQuestionLight_AuditoryOutput">Das aktuelle Design ist das Brigth Design. Welches Design wollen Sie wählen?</string>
+    <string name="SettingsDesignChoices_AuditoryOutput">Dunkles Design oder Konstrastreiches Design oder Helles Design</string>
+    <string name="SettingsGeneralHeader_AuditoryOutput">Sie befinden sich nun in den Allgemeinen Einstellungen.</string>
+    <string name="SettingsGeneralQuestion_AuditoryOutput">Welche Einstellungen möchten Sie ändern?</string>
+    <string name="SettingsGeneralChoices_AuditoryOutput">Design oder Bedienungshilfen oder Informationen</string>
+    <string name="SettingsInformationHeader_AuditoryOutput">Sie sind nun in den Einstellungen für Informationen.</string>
+    <string name="SettingsInformationQuestion_AuditoryOutput">Welche Informationen möchten Sie einsehen?</string>
+    <string name="SettingsInformationChoices_AuditoryOutput">Guide oder Version</string>
+    <string name="SettingsLanguageHeader_AuditoryOutput">Sie sind nun in der Sprachauswahl der Anwendung</string>
+    <string name="SettingsLanguageQuestion_AuditoryOutput">Die Aktuelle Sprache ist Deutsch. Welche Sprache wollen Sie einstellen?</string>
+    <string name="SettingsLanguageChoices_AuditoryOutput">Deutsch oder Englisch</string>
+    <string name="SystemLanguageHeader_AuditoryOutput">Deutsch wurde als Systemsprache erkannt.</string>
+    <string name="SystemLanguageConfirm_AuditoryOutput">Wischen Sie nach rechts um die Systemsprache beizubehalten.</string>
+    <string name="SystemLanguageRefuse_AuditoryOutput">Wischen SIe von rechts nach links um in die Sprachwahl zu gelangen.</string>
+</resources>
+
+

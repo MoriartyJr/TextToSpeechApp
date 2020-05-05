@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BgColorBrigth"
+    tools:context="com.texttospeech.texttospeech.GuideSettings">
+
+    <TextView
+        android:id="@+id/VLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="startActivityGuideCameraMode"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/Guide_Header"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/MainHeaderXLargeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/VDividerLine"
+        android:layout_width="@dimen/UnderscoreHeaderXLargeLayout"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvHeader" />
+
+    <TextView
+        android:id="@+id/TvHeader2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Guide_Settings"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/XLargeMidTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VDividerLine" />
+
+    <TextView
+        android:id="@+id/VToolTipHighlight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/XLargeHighlightGuideHeight"
+        android:layout_marginTop="200dp"
+        android:background="@color/HighlightColorBright"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TvContent"
+        android:layout_width="@dimen/XLargeButtonWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Guide_Settings_Content"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/XLargeTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/VToolTipHighlight" />
+
+    <ImageView
+        android:id="@+id/IvSwipe_Right"
+        android:layout_width="@dimen/XLargeIconSize"
+        android:layout_height="@dimen/XLargeIconSize"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="162dp"
+        android:contentDescription="@string/IconSwipeRightDescription"
+        android:src="@drawable/swipe_left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/VToolTipHighlight" />
+
+    <ImageView
+        android:id="@+id/IvStep"
+        android:layout_width="@dimen/GuideStepWidth"
+        android:layout_height="@dimen/GuideStepHeight"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/IconStatusDescription"
+        android:src="@drawable/step_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VToolTipHighlight" />
+
+</android.support.constraint.ConstraintLayout>

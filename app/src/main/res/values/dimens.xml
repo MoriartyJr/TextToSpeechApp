@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AppNameSize">56sp</dimen>
+    <dimen name="MainHeaderNormalLayout">36sp</dimen>
+    <dimen name="WidthUnderscore">282dp</dimen>
+    <dimen name="HeightUnderscore">1dp</dimen>
+    <dimen name="StandardTextSize">20sp</dimen>
+    <dimen name="IconSizeWidth">60dp</dimen>
+    <dimen name="IconSizeHeight">60dp</dimen>
+    <dimen name="WidthTextView">348dp</dimen>
+    <dimen name="HeightSmallHighlightContainer">150dp</dimen>
+    <dimen name="HeightBigHighlightContainer">190dp</dimen>
+    <dimen name="SecondHeaderNormalLayout">28sp</dimen>
+    <dimen name="GuideStepHeight">30dp</dimen>
+    <dimen name="GuideStepWidth">70dp</dimen>
+    <dimen name="ButtonWidth">300dp</dimen>
+    <dimen name="ButtonHeight">50dp</dimen>
+    <dimen name="RadioButtonHeight">35dp</dimen>
+    <dimen name="RadioButtonWidth">35dp</dimen>
+    <dimen name="LogoWidth">236dp</dimen>
+    <dimen name="LogoHeight">129dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="MainHeaderXLargeLayout">50sp</dimen>
+    <dimen name="UnderscoreHeaderXLargeLayout">400dp</dimen>
+    <dimen name="XLargeTextSize">30sp</dimen>
+    <dimen name="XLargeIconSize">82dp</dimen>
+    <dimen name="XLargeHighLightHeight">180dp</dimen>
+    <dimen name="XLargeTTSiconSize">100sp</dimen>
+    <dimen name="XLargeMidTextSize">34sp</dimen>
+    <dimen name="XLargeHighlightGuideHeight">300dp</dimen>
+    <dimen name="XLargeButtonWidth">600dp</dimen>
+    <dimen name="XLargeButtonHeight">80dp</dimen>
+</resources>

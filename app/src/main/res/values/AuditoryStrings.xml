@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ConfirmAccessibillity_AuditoryOutput">Swipe right to activate accessibility. </string>
+    <string name ="RefuseAccessibillity_AuditoryOutput">Swipe left to disable setting.</string>
+    <string name ="CameraMode_AuditoryOutput">Camera is active now. Touch display to make a picture..</string>
+    <string name="GuideSettingsHeader_AuditoryOutput">Guide for Settings.</string>
+    <string name="GuideSettingsInfo_AuditoryOutput">To get to settings swipe from right to left anytime.</string>
+    <string name="GuideCameraModeHeader_AuditoryOutput">Guide for Camera Mode.</string>
+    <string name="GuideCameraModeInfo_AuditoryOutput">To scan text you must be in the camera mode. To get there you can swipe from left to right anytime.</string>
+    <string name="GuideVoiceControlHeader_AuditoryOutput">Guide for Voice Control</string>
+    <string name="GuideVoiceControlInfo_AuditoryOutput">To control the app with voice command you need to keep one finger on the display. While touching you will be listened to.</string>
+    <string name="PictureSelectionHeader_AuditoryOutput">You are now in selection mode.</string>
+    <string name="PictureSelectionGallery_AuditoryOutput">Touch upper half to get to gallery to choose picture.</string>
+    <string name="PictureSelectionCamera_AuditoryOutput">By touching the half below you get to the camera mode to make a picture.</string>
+    <string name="PictureSelectionQuestion_AuditoryOutput">How do you want to select the picture?</string>
+    <string name="PictureSelectionChoices_AuditoryOutput">Select from Gallery or Camera?</string>
+    <string name="SettingsAccessibilityHeader_AuditoryOutput">You are now in settings for accessibility.</string>
+    <string name="SettingsAccessibilityQuestion_AuditoryOutput">Which accessibility setting do you want to modify?</string>
+    <string name="SettingsAccessibilityChoices_AuditoryOutput">Haptic feedback or Auditory Feedback or language</string>
+    <string name="SettingsAccessibilityHapitcFbON">The haptic feedback is now enabled.</string>
+    <string name="SettingsAccessibilityHapticFbOFF">The haptic feedback is now disabled.</string>
+    <string name="SettingsAccessibilityAuditoryFbON">The auditory feedback is now enabled.</string>
+    <string name="SettingsAccessibilityAuditoryFbOFF">The auditory feedback is now disabled.</string>
+    <string name="SettingsDesignHeader_AuditoryOutput">You are now in settings for design.</string>
+    <string name="SettingsDesignQuestionLight_AuditoryOutput">The current theme is Bright. Which theme do you want to select?</string>
+    <string name="SettingsDesignQuestionDark_AuditoryOutput">The current theme is Dark. Which theme do you want to select?</string>
+    <string name="SettingsDesignQuestionContrast_AuditoryOutput">The current theme is contrast theme. Which theme do you want to select?</string>
+    <string name="SettingsDesignChoices_AuditoryOutput">Dark Theme or contrast Theme</string>
+    <string name="SettingsGeneralHeader_AuditoryOutput">You are now in the general settings.</string>
+    <string name="SettingsGeneralQuestion_AuditoryOutput">which settings would you like to change?</string>
+    <string name="SettingsGeneralChoices_AuditoryOutput">Design or accessibility or information</string>
+    <string name="SettingsInformationHeader_AuditoryOutput">You are now at the information page of the app.</string>
+    <string name="SettingsInformationQuestion_AuditoryOutput">Which Information do you want to access?</string>
+    <string name="SettingsInformationChoices_AuditoryOutput">Guide or Version</string>
+    <string name="SettingsLanguageHeader_AuditoryOutput">You are now in the language settings of the app</string>
+    <string name="SettingsLanguageQuestion_AuditoryOutput">The current language is english. Which language do you want to set instead?</string>
+    <string name="SettingsLanguageChoices_AuditoryOutput">German or English</string>
+    <string name="SystemLanguageHeader_AuditoryOutput">English was recognized as system language.</string>
+    <string name="SystemLanguageConfirm_AuditoryOutput">Swipe to the right to set system language as app language.</string>
+    <string name="SystemLanguageRefuse_AuditoryOutput">Swipe to the left to get to the language selection.</string>
+
+
+</resources>

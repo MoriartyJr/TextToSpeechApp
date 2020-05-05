@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BgColorBrigth"
+    tools:context="com.texttospeech.texttospeech.Accessibility">
+
+    <TextView
+        android:id="@+id/tvBedienungshilfe"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/SystemLanguage"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/MainHeaderNormalLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TvUnderscore"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tvBedienungshilfe"
+        app:layout_constraintStart_toStartOf="@+id/tvBedienungshilfe"
+        app:layout_constraintTop_toBottomOf="@+id/tvBedienungshilfe" />
+
+    <TextView
+        android:id="@+id/tvBediText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/DeLanguage"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/StandardTextSize"
+        app:layout_constraintEnd_toStartOf="@+id/tvHighlight01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvUnderscore" />
+
+    <TextView
+        android:id="@+id/tvHighlight01"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/HighlightColorBright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvBedienungshilfe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHighlight02"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/HighlightColorBright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvBedienungshilfe"
+        app:layout_constraintTop_toBottomOf="@+id/tvHighlight01" />
+
+    <TextView
+        android:id="@+id/tvBestaetig"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Button_confirm"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/StandardTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvHighlight01"
+        app:layout_constraintTop_toTopOf="@+id/tvHighlight01" />
+
+    <TextView
+        android:id="@+id/tvNichtBestaetig"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Button_SelectLanguage"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/StandardTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvHighlight02"
+        app:layout_constraintTop_toTopOf="@+id/tvHighlight02" />
+
+    <ImageView
+        android:id="@+id/ivSwipeRight"
+        android:layout_width="@dimen/IconSizeWidth"
+        android:layout_height="@dimen/IconSizeHeight"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/IconSwipeRight"
+        android:src="@drawable/swipe_right"
+        app:layout_constraintBottom_toBottomOf="@+id/tvHighlight01"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvHighlight01"
+        app:layout_constraintTop_toBottomOf="@+id/tvBestaetig" />
+
+    <ImageView
+        android:id="@+id/ivSwipeLeft"
+        android:layout_width="@dimen/IconSizeWidth"
+        android:layout_height="@dimen/IconSizeHeight"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/IconSwipeLeft"
+        android:src="@drawable/swipe_left"
+        app:layout_constraintBottom_toBottomOf="@+id/tvHighlight02"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvHighlight02"
+        app:layout_constraintTop_toBottomOf="@+id/tvNichtBestaetig" />
+
+</android.support.constraint.ConstraintLayout>
